@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nasala Bajracharya | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- Your CSS file -->
+  <link rel="stylesheet" href="nasala_style.css" />
+</head>
+<body>
+
+  <!-- ==============================
+       NAVBAR
+  ================================= -->
+  <input type="checkbox" id="menu-toggle"/>
+  <nav>
+    <div class="logo">nasala<span>.</span></div>
+    <label for="menu-toggle" class="hamburger">
+      <i class="fas fa-bars"></i>
+    </label>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ==============================
+       HERO SECTION
+  ================================= -->
+  <section id="home" class="hero">
+    <div class="hero-shape1"></div>
+    <div class="hero-shape2"></div>
+
+    <div class="hero-content">
+      <span class="hero-tag">BIT &middot; 3rd Semester &middot; Kathmandu, Nepal</span>
+      <h1 class="hero-title">Hi, I'm<br/><em>Nasala</em></h1>
+      <p class="hero-desc">
+        A passionate web developer in the making — building real things
+        with HTML, CSS, and a love for clean, creative design.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-folder-open"></i> My Work
+        </a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+
+    <div class="hero-pill">
+      <div class="dot"></div>
+      <div>
+        <p>Open to Internships</p>
+        <span>Web Dev &middot; UI Design</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       ABOUT SECTION
+  ================================= -->
+  <section id="about" class="about">
+    <div class="about-left">
+      <div class="avatar">
+        
+        <img src="nasala.jpg" alt="Nasala" style="width:100%; height:100%; object-fit:cover; border-radius:20px;">
+      </div>
+    </div>
+
+    <div class="about-text">
+      <p class="section-label">/ about me</p>
+      <h2 class="section-title">Who I Am</h2>
+      <p>
+        I'm Nasala Bajracharya, a BIT student in my 3rd semester with a
+        growing passion for web development and UI design. I enjoy turning
+        ideas into real, functional, and beautiful websites.
+      </p>
+      <p>
+        I'm a fast learner who loves exploring how design and technology
+        work together. I've also gained real-world experience through
+        counseling and volunteering, which has made me a great communicator
+        and team player.
+      </p>
+
+      <div class="stats">
+        <div class="stat">
+          <span class="stat-num">3rd</span>
+          <span class="stat-label">Semester</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">BIT</span>
+          <span class="stat-label">Program</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">2+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">NP</span>
+          <span class="stat-label">Nepal</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       SKILLS SECTION
+  ================================= -->
+  <section id="skills" class="skills">
+    <p class="section-label">/ skills</p>
+    <h2 class="section-title">What I Work With</h2>
+
+    <!-- Technical Skills -->
+    <span class="skills-sub-label">Technical Skills</span>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+        <div class="skill-info">
+          <div class="skill-top"><span>HTML5</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+        <div class="skill-info">
+          <div class="skill-top"><span>CSS3</span><span>80%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-table-cells-large"></i></div>
+        <div class="skill-info">
+          <div class="skill-top"><span>CSS Grid &amp; Flexbox</span><span>75%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 75%"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-mobile-screen"></i></div>
+        <div class="skill-info">
+          <div class="skill-top"><span>Responsive Design</span><span>72%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 72%"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-js"></i></div>
+        <div class="skill-info">
+          <div class="skill-top"><span>JavaScript</span><span>50%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 50%"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+        <div class="skill-info">
+          <div class="skill-top"><span>Git</span><span>55%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 55%"></div></div>
+        </div>
+      </div>
+
+    </div><!-- end skills-grid -->
+
+    <!-- Soft Skills -->
+    <span class="skills-sub-label" style="margin-top: 50px;">Personal Strengths</span>
+    <div class="soft-skills-grid">
+
+      <div class="soft-skill-card">
+        <div class="soft-skill-icon"><i class="fas fa-comments"></i></div>
+        <div class="soft-skill-info">
+          <h4>Good Communication</h4>
+          <p>Able to explain ideas clearly and work well with others in a team.</p>
+        </div>
+      </div>
+
+      <div class="soft-skill-card">
+        <div class="soft-skill-icon"><i class="fas fa-bolt"></i></div>
+        <div class="soft-skill-info">
+          <h4>Fast Learner</h4>
+          <p>I pick up new concepts and tools quickly and enjoy growing my skills.</p>
+        </div>
+      </div>
+
+      <div class="soft-skill-card">
+        <div class="soft-skill-icon"><i class="fas fa-people-group"></i></div>
+        <div class="soft-skill-info">
+          <h4>Team Player</h4>
+          <p>Volunteered at multiple college events — I work great in group settings.</p>
+        </div>
+      </div>
+
+      <div class="soft-skill-card">
+        <div class="soft-skill-icon"><i class="fas fa-handshake"></i></div>
+        <div class="soft-skill-info">
+          <h4>Counseling &amp; Listening</h4>
+          <p>Experience as a school counselor gave me strong empathy and patience.</p>
+        </div>
+      </div>
+
+    </div><!-- end soft-skills-grid -->
+  </section>
+
+  <!-- ==============================
+       EXPERIENCE SECTION
+  ================================= -->
+  <section id="experience" class="experience">
+    <p class="section-label">/ experience</p>
+    <h2 class="section-title">Work &amp; Volunteering</h2>
+
+    <div class="exp-list">
+
+      <!-- Job 1 -->
+      <div class="exp-card">
+        <div class="exp-icon">
+          <i class="fas fa-school"></i>
+        </div>
+        <div class="exp-body">
+          <div class="exp-meta">
+            <span class="exp-duration">1 Month &middot; 2024</span>
+            <span class="exp-badge">Part-time</span>
+          </div>
+          <h3>Student Counselor</h3>
+          <span class="exp-org">Whitefield Secondary School (+2), Kathmandu</span>
+          <p>
+            Guided and supported students with academic and personal
+            challenges. Developed strong communication, listening, and
+            problem-solving skills through one-on-one counseling sessions.
+          </p>
+        </div>
+      </div>
+
+      <!-- Job 2 -->
+      <div class="exp-card">
+        <div class="exp-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="exp-body">
+          <div class="exp-meta">
+            <span class="exp-duration">Multiple Events</span>
+            <span class="exp-badge">Volunteer</span>
+          </div>
+          <h3>Event Volunteer</h3>
+          <span class="exp-org">Various College Festivals, Kathmandu</span>
+          <p>
+            Volunteered at different college fests — helped with event
+            management, coordination, and teamwork. Gained experience
+            working under pressure and collaborating with large groups.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==============================
+       PROJECTS SECTION
+  ================================= -->
+  <section id="projects" class="projects">
+    <p class="section-label">/ projects</p>
+    <h2 class="section-title">Things I've Built</h2>
+
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="card-num">01</div>
+        <div class="card-badges">
+          <span>HTML</span><span>CSS</span><span>Design</span>
+        </div>
+        <h3>Portfolio Website</h3>
+        <p>
+          A personal portfolio built with HTML and CSS to showcase
+          my skills and projects with a clean, modern layout.
+        </p>
+        <a href="#" class="card-link">
+          View Project <i class="fas fa-arrow-right"></i>
+        </a>
+      </article>
+
+      <article class="project-card">
+        <div class="card-num">02</div>
+        <div class="card-badges">
+          <span>HTML</span><span>CSS</span><span>Layout</span>
+        </div>
+        <h3>Clothing Brand Website</h3>
+        <p>
+          A clothing brand website from 2nd semester — focused on
+          clean layout, structured page design, and brand consistency.
+        </p>
+        <a href="#" class="card-link">
+          View Project <i class="fas fa-arrow-right"></i>
+        </a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ==============================
+       EDUCATION SECTION
+  ================================= -->
+  <section id="education" class="education">
+    <p class="section-label">/ education</p>
+    <h2 class="section-title">My Academic Journey</h2>
+
+    <div class="edu-timeline">
+
+      <div class="edu-item">
+        <div class="edu-dot"></div>
+        <div class="edu-body">
+          <span class="edu-year">2023 &ndash; Present</span>
+          <h3>Bachelor of Information Technology (BIT)</h3>
+          <p>Lincoln International College &middot; 3rd Semester</p>
+          <p> Dhobidhara,Kathmandu</p>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div class="edu-dot"></div>
+        <div class="edu-body">
+          <span class="edu-year">2021 &ndash; 2023</span>
+          <h3>Higher Secondary (+2 Management)</h3>
+          <p>Whitefield Secondary School </p>
+          <p>Khusibu,Kathmandu</p>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div class="edu-dot"></div>
+        <div class="edu-body">
+          <span class="edu-year">Completed 2021</span>
+          <h3>Secondary Education (SEE)</h3>
+          <p>Whitefield Secondary School</p>
+          <p>Khusibu,Kathmandu</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==============================
+       CONTACT SECTION
+  ================================= -->
+  <section id="contact" class="contact">
+    <div class="contact-left">
+      <p class="section-label">/ contact</p>
+      <h2 class="section-title">Let's Connect</h2>
+      <p>
+        Have a project idea or just want to say hello?
+        I'd love to hear from you!
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:bajracharyanasala@gmail.com">
+          <i class="fas fa-envelope"></i> gmail.com/bajracharyanasala0@gmail.com
+        </a>
+        <a href="https://www.instagram.com/n4sal.a/" target="_blank">
+          <i class="fab fa-instagram"></i> instagram.com/n4sal.a
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <i class="fab fa-facebook"></i> facebook.com/nasala
+        </a>
+        <a href="https://www.linkedin.com/in/nasala-bajracharya-2232593bb/" target="_blank">
+          <i class="fab fa-linkedin"></i> linkedin.com/in/nasala-bajracharya
+        </a>
+        <a href="#">
+          <i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-right">
+      <form onsubmit="return false;" class="contact-form">
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit" class="btn btn-primary">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ==============================
+       FOOTER
+  ================================= -->
+  <footer>
+    <p>
+      &copy; 2024 <strong>Nasala Bajracharya</strong>
+      &middot; BIT 3rd Semester &middot; Built with HTML &amp; CSS
+    </p>
+    <div class="footer-socials">
+      <a href="https://www.instagram.com/n4sal.a/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/" target="_blank">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/nasala-bajracharya-2232593bb/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
